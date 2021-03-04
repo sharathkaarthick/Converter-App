@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Navigation bar Title -->
+    <string name="app_name">Converter</string>
+    <string name="nav_temperature">Temperature</string>
+    <string name="nav_distance">Distance</string>
+    <string name="nav_currency">Currency</string>
+    <string name="nav_time">Time</string>
+    <string name="nav_number">Number</string>
+
+    <!-- Header bar Title -->
+    <string name="temperature_title">Temperature</string>
+    <string name="distance_title">Distance</string>
+    <string name="currency_title">Currency</string>
+    <string name="time_title">Time</string>
+    <string name="number_title">Number</string>
+
+    <!-- Text views -->
+    <string name="temp_text">Temperature</string>
+    <string name="txt_conv_temp">Converted Temperature</string>
+
+    <!-- Radio Buttons -->
+    <string name="c_to_f">C to F</string>
+    <string name="f_to_c">F to C</string>
+    <string name="f_to_k">F to K</string>
+    <string name="k_to_f">K to F</string>
+    <string name="c_to_k">C to K</string>
+    <string name="k_to_c">K to C</string>
+
+    <!-- Buttons -->
+    <string name="button_convert">Convert</string>
+
+    <string-array name="length">
+        <item>Millimetre</item>
+        <item>Centimetre</item>
+        <item>Inch</item>
+        <item>Feet</item>
+        <item>Yard</item>
+        <item>Metre</item>
+        <item>Miles</item>
+        <item>Kilometre</item>
+    </string-array>
+
+    <string-array name="currency">
+        <item>INR</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>JPY</item>
+        <item>GBP</item>
+        <item>AUD</item>
+        <item>MXN</item>
+        <item>KWD</item>
+        <item>SGD</item>
+        <item>MYR</item>
+        <item>AED</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+
+    <string-array name="number">
+        <item>Binary</item>
+        <item>Quinary</item>
+        <item>Octal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+
+    <string name="binary">01</string>
+
+</resources>

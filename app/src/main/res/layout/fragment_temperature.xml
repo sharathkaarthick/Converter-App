@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp">
+
+
+
+    <EditText
+        android:id="@+id/temp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:id="@+id/txt_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="215dp"
+        android:text="@string/temp_text" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="2dp">
+
+        <RadioButton
+            android:id="@+id/radio_ctof"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="50dp"
+            android:text="@string/c_to_f"
+            android:paddingStart="4dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_ftoc"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginStart="220dp"
+            android:paddingStart="4dp"
+            android:text="@string/f_to_c" />
+
+        <RadioButton
+            android:id="@+id/radio_ftok"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"
+            android:text="@string/f_to_k"
+            android:paddingStart="4dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_ktof"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginStart="220dp"
+            android:text="@string/k_to_f"
+            android:paddingStart="4dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_ctok"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/c_to_k"
+            android:paddingStart="4dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_ktoc"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginStart="220dp"
+            android:text="@string/k_to_c"
+            android:paddingStart="4dp"/>
+
+</RadioGroup>
+
+    <TextView
+        android:id="@+id/txt_conv_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="455dp"
+        android:text="@string/txt_conv_temp" />
+
+    <TextView
+        android:id="@+id/conv_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="455dp"/>
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_convert"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="140dp"
+        android:onClick="convert"        />
+
+</FrameLayout>

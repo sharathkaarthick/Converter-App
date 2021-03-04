@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/currency1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="200dp" />
+
+    <Spinner
+        android:id="@+id/currency2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="200dp" />
+
+    <Button
+        android:id="@+id/currency_convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginStart="140dp"
+        android:text="@string/button_convert"
+        android:onClick="currencycalc"/>
+
+    <EditText
+        android:id="@+id/ip_currency1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="30dp"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/ip_currency2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="30dp"
+        android:inputType="numberDecimal"
+        android:enabled="false"/>
+
+</FrameLayout>

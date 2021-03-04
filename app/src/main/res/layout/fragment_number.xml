@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentNumber">
+
+    <Spinner
+        android:id="@+id/number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="200dp" />
+
+    <Spinner
+        android:id="@+id/number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="200dp" />
+
+    <Button
+        android:id="@+id/number_convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginStart="140dp"
+        android:text="@string/button_convert" />
+
+    <EditText
+        android:id="@+id/ip_number1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="30dp"
+        android:inputType="textCapCharacters"
+        android:digits="0123456789ABCDEF"
+        android:maxLength="8"/>
+
+    <EditText
+        android:id="@+id/ip_number2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="30dp"
+        android:inputType="numberDecimal"
+        android:enabled="false"
+        android:maxLength="8"/>
+
+</FrameLayout>
